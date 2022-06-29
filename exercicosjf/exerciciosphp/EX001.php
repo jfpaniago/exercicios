@@ -6,7 +6,7 @@
 //2) Se é número. (is_numeric)
 //3) Se possui o @ (strstr = comando pra achar agulha no palheiro)
 
-//isset = Verificar se existe = Variavel ter valor ou ser criada.
+//isset = Verificar se existe = variavel ter valor ou ser criada.
 
 if($_POST['acao'] != null){
     $nome = $_POST['nome'];

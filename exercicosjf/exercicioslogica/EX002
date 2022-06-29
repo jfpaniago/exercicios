@@ -1,0 +1,9 @@
+//logica de declaraçao de VARIAVEIS. usar VAR apenas quando a informaçao for dinamica
+//caso a informaçao desejada for uma constante, usar CONST 
+
+//caso queira que a informaçao adquirida seja declarada apenas em um lugar especifico
+//let = deixe que => ou seja, let a = 10, significa deixe que a seja igual a dez (apenas no campo especificado)
+var a = input('digite um numero')
+var b = input('digite outro numero')
+var c = a + b
+console.log("a soma dos dois numeros é " + c )

@@ -1,0 +1,12 @@
+algoritmo "semnome""
+var 
+    A, B, C: Inteiro
+inicio
+    A <- 2
+    B <- 3
+    C <- 5
+    Escreva (A=B) 
+    //isso deve retornar o resultado falso ou verdadeiro,
+    // uma propriedade dos operadores relacionais (=,<,>,<=,>=,<>)
+
+    
