@@ -1,0 +1,6 @@
+var F, C = Number   
+
+    var F = input("qual a temperatura aqui?")
+    var C = (F-32/1.8)
+    print("essa temperatura equivale a " + C + "graus celsius.")
+    
