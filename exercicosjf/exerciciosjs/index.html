@@ -14,7 +14,6 @@
                 height: 100px;
             }
         </style>
-
     </head>    
     <body>
     <div class="pai">
@@ -46,13 +45,9 @@
 
             $('.pai .filho').each(function(){
                 var obj = $(this).find('.filho-do-filho');
-                if(obj.lenght >     0){
-                    if(obj.hasClass('animar')){
-
-                        obj.animate({width:'100px'},3000,function(){
-                            console.log('terminamos');
-                        });
-                    }
+                if(obj.lenght > 0){
+                    console.log('existe filho');
+                    
                     
                 }
             }) 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style type="text/css">
+            .filho{
+                width: 500px;
+                height: 500px;
+                border: 1px solid black; 
+            }
+            .filho-do-filho{
+                width: 0;
+                background: purple;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        </body>
+        <div class = "pai">
+            <div class = "filho">
+
+            </div>
+            <div class = "filho">
+
+            </div>
+            <div class = "filho">
+                <div class="filho-do-filho"></div>
+            </div>
+            <div class = "filho">
+                <div class="filho-do-filho animar"></div>
+            </div>
+            <div class = "filho">
+
+            </div>
+            <div class = "filho">
+
+            </div>
+        </div>
+        <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(function(){
+
+                $('.pai .filho').each(function(){
+                    var obj = $(this).find('.filho-do-filho');
+                    if(obj.length > 0){
+                        if(obj.hasClass('animar')){
+                            obj.animate({widht:'100px'}, 3000,function(){
+                                console.log('terminamos');
+                            });
+                        }
+                        
+                    }
+                })
+                
+            })
+        </script>
+    </body>
+</html>

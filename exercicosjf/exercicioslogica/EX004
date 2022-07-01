@@ -1,0 +1,16 @@
+C <- 1
+ContDiv <- 0
+Escreva ("digite um numero: ")
+leia (N)
+Repita
+    Escreva (C)
+    Se (N % C = 0) entao
+        ContDiv < ContDiv + 1
+    FimSe
+    C <- C +1
+Ate (c>N)
+Se (ContDiv > 2) entao
+    EscrevaL ("O valor é primo")
+senao
+    EscrevaL ("O valor nao é primo")
+FimSe
